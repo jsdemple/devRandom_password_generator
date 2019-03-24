@@ -6,13 +6,13 @@ Generate a psuedorandom password using either /dev/urandom or /dev/random for ex
 
 ## Installation:
 1. Ensure you have Python 3.6 installed
-2. Add ./getpwd.py to your `/usr/local/bin`: `sudo cp ./getpwd.py /usr/local/bin`
-3. Ensure that the file is executable: `sudo chmod 755 /usr/local/bin/getpwd.py`
-4. Generate a psuedorandom password!: `getpwd.py 10`
+2. Add ./getpwd to your `/usr/local/bin`: `sudo cp ./getpwd /usr/local/bin`
+3. Ensure that the file is executable: `sudo chmod 755 /usr/local/bin/getpwd`
+4. Generate a psuedorandom password!: `getpwd 10`
 
 ## Command Line Usage
 ```
-usage: getpwd.py [-h] [-e] length
+usage: getpwd [-h] [-e] length
 
 positional arguments:
   length              Desired length of randomly generated password
